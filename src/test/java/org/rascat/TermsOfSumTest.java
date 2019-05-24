@@ -1,5 +1,8 @@
+package org.rascat;
+
+import org.rascat.TermsOfSum;
+
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 import static org.junit.Assert.*;
