@@ -1,7 +1,5 @@
 package org.rascat;
 
-import org.rascat.TermsOfSum;
-
 import java.util.ArrayList;
 import java.util.List;
 
