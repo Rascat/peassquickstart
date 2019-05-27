@@ -1,8 +1,6 @@
 package org.rascat;
 
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 public class TermsOfSum {
     public static Integer[] execute(List<Integer> c1, List<Integer> c2, Integer sum) {
