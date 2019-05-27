@@ -1,5 +1,7 @@
 package org.rascat;
 
+import org.junit.Test;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -8,7 +10,7 @@ import static org.junit.Assert.*;
 
 public class TermsOfSumTest {
 
-  @org.junit.Test
+  @Test
   public void execute() {
     List<Integer> input1 = new ArrayList<>();
     List<Integer> input2 = new ArrayList<>();
@@ -29,5 +31,10 @@ public class TermsOfSumTest {
     Integer[] actual = TermsOfSum.execute(input1, input2, sum);
 
     assertEquals(sum, actual[0] + actual[1]);
+  }
+
+  @Test
+  public void testHelloWorld() {
+    System.out.println("Hello World");
   }
 }
